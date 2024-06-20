@@ -1,0 +1,12 @@
+{
+  "name": "test_mdb",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start_py": "python select_police.py",
+    "start_cpp": "g++ -o mdb_example select_police.cpp -lodbc"
+  },
+  "author": "https://github.com/Vladislav-Kor",
+  "license": "ISC",
+  "description": "application that opens mdb files"
+}
