@@ -12,7 +12,7 @@
 #include <sqlext.h>
 
 int main() {
-    std::string dbPath = "path_to_your_database.mdb"; // Установите путь к вашей базе данных
+    std::string dbPath = "dabase.mdb"; // Установите путь к вашей базе данных
     std::string dsn = "DRIVER={Microsoft Access Driver (*.mdb)}; DBQ=" + dbPath;
 
     SQLHENV env;
@@ -87,9 +87,9 @@ int main() {
                 std::cerr << "Error getting data: " << ret << std::endl;
                 break;
             }
-            std::cout << buf << " ";
+            std::cerr << buf << " ";
         }
-        std::cout << std::endl;
+        std::cerr << std::endl;
     }
 
     // Закрытие соединения
