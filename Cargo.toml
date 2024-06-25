@@ -1,0 +1,13 @@
+[workspace]
+members = ["/home/user/Рабочий стол/rust-select/Cargo.toml"]
+
+[lib]
+path = "/home/user/Рабочий стол/rust-select/select_mdb.rs"
+
+[package]
+name = "select_mdb_file"
+version = "0.1.0"
+authors = ["corchagin.vlad2115@yandex.ru"]
+
+[dependencies]
+mdbtools_rs = "0.1.3"
