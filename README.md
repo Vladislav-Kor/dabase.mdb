@@ -6,3 +6,5 @@
 npm run start_py
 # Виполнить код на c++
 npm run start_cpp
+# Виполнить код на Rust
+cargo build
